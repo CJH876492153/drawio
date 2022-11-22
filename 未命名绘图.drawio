@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T11:56:27.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.3.2" etag="w3CUdKyf8AHELa5LvdPy" type="github"><diagram id="RBm-Ief8d5Q1XfwuI2k8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:29:39.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="35Z8_33mShPPDXJhFZ9o" version="20.3.2" type="github">
+  <diagram id="RBm-Ief8d5Q1XfwuI2k8" name="第 1 页">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-19" value="remove" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="240" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-12" value="ETL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="240" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-3" value="拉取数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-2" value="hdfs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-6" value="有效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-4" target="lcfS1BVxuecye2Q4z7mH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-10" value="无效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-4" target="lcfS1BVxuecye2Q4z7mH-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="220" />
+              <mxPoint x="510" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-4" value="数据是否有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-5" target="lcfS1BVxuecye2Q4z7mH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-5" value="将数据存入zset中&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-7" target="lcfS1BVxuecye2Q4z7mH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-7" value="将该zset的key值&lt;br&gt;存入key为yyyy-MM-dd_keys的set中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-9" target="lcfS1BVxuecye2Q4z7mH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-9" value="获取yyyy-MM-dd_keys的value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-15" target="lcfS1BVxuecye2Q4z7mH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-15" value="遍历zset，删除过期元素" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lcfS1BVxuecye2Q4z7mH-17" target="lcfS1BVxuecye2Q4z7mH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-17" value="删除 yyyy-MM-dd_keys 的set" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcfS1BVxuecye2Q4z7mH-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
