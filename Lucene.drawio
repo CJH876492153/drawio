@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:09:14.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.4.0" etag="ZAg5Z_JIkoSFSIeASOOt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T07:53:17.889Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eQOHhw0p6fmjSs2DcdPn" version="21.4.0" type="github">
   <diagram name="第 1 页" id="o1n4y-trhVsAMV334-2g">
-    <mxGraphModel>
+    <mxGraphModel dx="892" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-1" value="MySql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CREfO3SD3FYI0ZjtSTEL-2" target="CREfO3SD3FYI0ZjtSTEL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-6" value="关键字" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CREfO3SD3FYI0ZjtSTEL-5">
+          <mxGeometry x="0.0667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CREfO3SD3FYI0ZjtSTEL-4" target="CREfO3SD3FYI0ZjtSTEL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-4" value="web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-8" value="select * from xxx like ‘%关键字%’" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CREfO3SD3FYI0ZjtSTEL-11" target="CREfO3SD3FYI0ZjtSTEL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-11" value="索引" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CREfO3SD3FYI0ZjtSTEL-14" target="CREfO3SD3FYI0ZjtSTEL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-13" value="关键字" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CREfO3SD3FYI0ZjtSTEL-12">
+          <mxGeometry x="0.0667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CREfO3SD3FYI0ZjtSTEL-16" target="CREfO3SD3FYI0ZjtSTEL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-16" value="web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-17" value="关键字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CREfO3SD3FYI0ZjtSTEL-18" value="各种数据源" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
