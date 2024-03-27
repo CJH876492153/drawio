@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T02:45:35.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.0" etag="lxAeIMPmyb4t4OlrD-MG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T06:43:05.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="HIs85vaExoJ2E8PM5Usn" version="24.2.0" type="github">
   <diagram name="第 1 页" id="DZKvMR4NqTbN847J7-GW">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-9" target="5Lwf3cJAL7MCHCofSX3t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-17" value="广告物料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-14">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-9" value="内部品牌广告需求方平台（DSP）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="420" width="255" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-1" target="5Lwf3cJAL7MCHCofSX3t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-18" value="发送广告" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-16">
+          <mxGeometry x="0.1529" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-1" target="5Lwf3cJAL7MCHCofSX3t-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-27" value="发送竞价广告" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-26">
+          <mxGeometry x="-0.3722" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-1" value="gorgon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-3" value="优选" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-4" target="5Lwf3cJAL7MCHCofSX3t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-4" value="广告代理商/广告投放方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-12" value="流量方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-19" target="5Lwf3cJAL7MCHCofSX3t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-24" value="广告物料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-20">
+          <mxGeometry x="-0.0105" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-19" value="yex(内部adx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-21" target="5Lwf3cJAL7MCHCofSX3t-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-23" value="竞价广告(RTA/RTB)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-22">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint x="-15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-21" value="外部需求方平台（DSP 品牌/效果）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="307.5" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-25" value="外部ADX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-28" target="5Lwf3cJAL7MCHCofSX3t-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-33" value="竞价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Lwf3cJAL7MCHCofSX3t-32">
+          <mxGeometry x="-0.4179" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-28" value="内部品牌广告需求方平台（DSP）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="632.5" y="60" width="255" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-29" value="智选" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Lwf3cJAL7MCHCofSX3t-31" target="5Lwf3cJAL7MCHCofSX3t-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lwf3cJAL7MCHCofSX3t-31" value="广告代理商/广告投放方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
